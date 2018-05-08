@@ -1,0 +1,14 @@
+{
+  "name": "ratio-techtest",
+  "version": "0.0.1",
+  "description": "Ratio Monsters tech test",
+  "main": "monsters.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
+}
