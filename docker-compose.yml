@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  monsters:
+    container_name: monsters
+    image: node:alpine
+    volumes:
+      - ./:/code
+    working_dir: /code
+    tty: true

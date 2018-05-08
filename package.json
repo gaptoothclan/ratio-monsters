@@ -4,11 +4,17 @@
   "description": "Ratio Monsters tech test",
   "main": "monsters.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha \"test/**/*.test.js\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "proxyquire": "^2.0.1",
+    "sinon": "^5.0.7"
   }
 }
