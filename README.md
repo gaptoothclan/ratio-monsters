@@ -14,7 +14,7 @@ Here's my submission for the monsters tech test.
 
 `-p` is the path to the world you wish load 
 
-`-o` is the output path you wish you use for the new world after the monsters have run rampant. All of the parameters are option and there are defaults provided.
+`-o` is the output path you wish you use for the new world after the monsters have run rampant. All of the parameters are optional and there are defaults used when a parameter is not present.
 
 If you wish to run it in docker there's a docker-compose available. Run `docker-compose up -d && docker exec -it monsters sh` to bring up and enter the container.
 
