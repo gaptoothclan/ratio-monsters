@@ -55,6 +55,7 @@ let totalIterations = 0;
 let currentCityIndex = 0;
 let totalDeadMonsters = 0;
 let totalCitiesDestroyed = 0;
+let totalCities = worldMap.cityNames.length;
 
 function incrementDeathTolls() {
   totalCitiesDestroyed++;
@@ -62,7 +63,7 @@ function incrementDeathTolls() {
 }
 
 function mainLoop() {
-  while (totalDeadMonsters < totalMonsters && totalIterations < MAX_ITERATIONS && totalCitiesDestroyed < worldMap.cityNames.length) {
+  while (totalDeadMonsters < totalMonsters && totalIterations < MAX_ITERATIONS && totalCitiesDestroyed < totalCities) {
     const cityName = worldMap.cityNames[currentCityIndex];
     const city = worldMap[cityName];
 
